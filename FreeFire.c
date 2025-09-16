@@ -17,15 +17,19 @@ int main() {
     int opcao;
 
     do {
-        printf("\n=== MENU Free Fire ===\n");
+        printf("================================\n");
+        printf("===== MENU FREE FIRE =====\n");
+        printf("\n=== ADICIONANDO ITENS A MOCHILA ====\n");
         printf("1. Adicionar item\n");
         printf("2. Remover item\n");
         printf("3. Listar itens\n");
         printf("4. Buscar item por nome\n");
         printf("0. Sair\n");
-        printf("Escolha: ");
+        printf("================================\n");
+        printf("Digite a opção desejada: ");
         scanf("%d", &opcao);
         getchar(); // limpa buffer
+        
 
         switch(opcao) {
             case 1:
